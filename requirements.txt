@@ -1,0 +1,2 @@
+# Optional: enables dragging files from the desktop onto the window. The app works without it.
+tkinterdnd2==0.4.2

@@ -1,0 +1,5 @@
+# Keep map files byte-for-byte identical on every computer (their checksums are tested).
+*.csv -text
+*.json -text
+*.sh text eol=lf
+*.bat text eol=crlf

@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "maps-studio"
+version = "2.0.1"
+description = "Desktop editor for CSV/JSON occupancy-grid maps used in COMP1827 route-planning experiments"
+requires-python = ">=3.10"
+readme = "README.md"
+license = {file = "LICENSE"}
+
+[project.optional-dependencies]
+dnd = ["tkinterdnd2==0.4.2"]
+
+[tool.setuptools.packages.find]
+include = ["maps_studio*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

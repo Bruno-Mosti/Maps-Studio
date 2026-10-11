@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Build output
+build/
+dist/
+out/
+pkg/
+*.spec.bak
+
+# Maps Studio working data (never commit personal maps or backups)
+.maps_studio/
+*.backup-*
+studio.lock
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
